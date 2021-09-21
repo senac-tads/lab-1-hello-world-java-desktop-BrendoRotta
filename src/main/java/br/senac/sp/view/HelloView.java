@@ -63,8 +63,10 @@ public class HelloView extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    //Alterado BrendoR 15.08 12.37
     private void btnCliqueActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCliqueActionPerformed
         //TODO: show a simple hello world message to the clicker
+        JOptionPane.showMessageDialog(null, "Olá, Mundo!");
     }//GEN-LAST:event_btnCliqueActionPerformed
 
     /**
